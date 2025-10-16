@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hosting & Pricing — GlobbalNews</title>
+  <meta name="description" content="Website hosting, domain setup and maintenance plans from GlobbalNews. Includes free SSL and automatic deploys." />
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa7b2; --accent:#06b6d4; --glass: rgba(255,255,255,0.04);
+      --glass-2: rgba(255,255,255,0.03);
+      --radius: 14px;
+      --maxw:1100px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0; background:linear-gradient(180deg,#071026 0%, #07121a 40%); color:#e6eef6; -webkit-font-smoothing:antialiased;}
+    .wrap{max-width:var(--maxw); margin:40px auto; padding:28px}
+    header{display:flex; align-items:center; justify-content:space-between; gap:20px}
+    .brand{display:flex; gap:12px; align-items:center}
+    .logo{width:48px; height:48px; border-radius:10px; background:linear-gradient(135deg,var(--accent), #7c3aed); display:grid; place-items:center; font-weight:700}
+    h1{font-size:22px; margin:0}
+    p.lead{margin:4px 0 0; color:var(--muted); font-size:13px}
+
+    .hero{display:grid; grid-template-columns:1fr 360px; gap:28px; margin-top:28px}
+    .panel{background:linear-gradient(180deg,var(--card), rgba(11,18,32,0.6)); padding:20px; border-radius:var(--radius); box-shadow:0 6px 18px rgba(2,6,23,0.6);}
+
+    .features{display:grid; grid-template-columns:repeat(2,1fr); gap:12px}
+    .feature{background:var(--glass); padding:12px; border-radius:10px; color:var(--muted); font-size:14px}
+
+    .price-toggle{display:flex; gap:10px; align-items:center; justify-content:center; margin-bottom:18px}
+    .toggle{background:var(--glass-2); padding:6px 10px; border-radius:999px; display:inline-flex; gap:8px; align-items:center}
+    .toggle button{background:transparent; border:0; color:var(--muted); padding:6px 10px; border-radius:999px; cursor:pointer}
+    .toggle button.active{background:linear-gradient(90deg,var(--accent), #7c3aed); color:#042027}
+
+    .cards{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:18px; border-radius:14px; border:1px solid rgba(255,255,255,0.03)}
+    .card h3{margin:0 0 8px; font-size:16px}
+    .price{font-size:28px; font-weight:700; margin:10px 0}
+    .per{color:var(--muted); font-size:13px}
+    .features-list{margin:12px 0; color:var(--muted); font-size:14px}
+    .cta{display:inline-block; margin-top:12px; padding:10px 14px; border-radius:10px; text-decoration:none; font-weight:600}
+    .primary{background:linear-gradient(90deg,var(--accent), #7c3aed); color:#042027}
+    .ghost{border:1px solid rgba(255,255,255,0.06); background:transparent; color:var(--muted)}
+
+    .faq{margin-top:22px}
+    .faq h4{margin:0 0 8px}
+    .faq p{color:var(--muted); margin:6px 0 0}
+
+    footer{margin-top:28px; color:var(--muted); font-size:13px; display:flex; justify-content:space-between}
+
+    /* responsive */
+    @media (max-width:980px){.hero{grid-template-columns:1fr} .cards{grid-template-columns:1fr} .features{grid-template-columns:1fr}}
+  </style>
+</head>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3829551401962136"
+  crossorigin="anonymus">
+</script>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">GN</div>
+        <div>
+          <h1>GlobbalNews — Hosting & Maintenance</h1>
+          <p class="lead">Fast static hosting, free SSL, automatic deploys from Git — simple plans for local businesses.</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#pricing" style="color:var(--muted); text-decoration:none; font-weight:600">Pricing</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <section>
+        <div class="panel">
+          <h2 style="margin:0 0 8px">Simple hosting plans — no ads</h2>
+          <p style="margin:0 0 14px; color:var(--muted)">We build, deploy, and manage your site. Domains, backups and updates included on paid plans.</p>
+          <p>Tahirus-Enterprise is having a great team that has a responsible of Managing Businesses,
+             New or existing Business we are ready to assist or manage.
+          </p>
+          <p>Are you looking for Data-Analyst?, Marketing Assistance? or to Build Your App?
+            We are there for you!  </p>
+
+          <div class="features">
+            <div class="feature">Automatic Git deploys (Netlify)</div>
+            <div class="feature">Free SSL (Let's Encrypt)</div>
+            <div class="feature">Domain setup</div>
+            <div class="feature">Monthly backups & updates</div>
+          </div>
+
+          <div class="faq">
+            <h4>Quick FAQ</h4>
+            <p><strong>Can you migrate my current site?</strong> — Yes. We handle DNS & migration.</p>
+            <p><strong>Do I get email?</strong> — We can configure forwarding or recommend an email provider.</p>
+          </div>
+        </div>
+      </section>
+
+      <aside>
+        <div class="panel">
+          <div style="text-align:center">
+            <div style="font-size:13px; color:var(--muted)">BILLING</div>
+            <div class="price-toggle">
+              <div style="font-size:13px; color:var(--muted)"></div>
+              <div class="toggle">
+                <button id="monthlyBtn" class="active">Monthly</button>
+                <button id="yearlyBtn">Yearly</button>
+              </div>
+              <div style="font-size:13px; color:var(--muted)"></div>
+            </div>
+          </div>
+
+          <div class="cards" id="pricing">
+            <div class="card">
+              <h3>Starter</h3>
+              <div class="price"><span class="amount" data-monthly="10" data-yearly="100">$10</span> <span class="per">/mo</span></div>
+              <div class="features-list">
+                <div>One static site</div>
+                <div>Custom domain</div>
+                <div>100 GB bandwidth / month</div>
+              </div>
+              <a class="cta primary" href="mailto:juniorpresident096@gmail.com?subject=Starter%20Plan%20Inquiry">Get started</a>
+            </div>
+
+            <div class="card">
+              <h3>Pro</h3>
+              <div class="price"><span class="amount" data-monthly="25" data-yearly="250">$25</span> <span class="per">/mo</span></div>
+              <div class="features-list">
+                <div>Up to 5 sites</div>
+                <div>Priority support</div>
+                <div>Monthly backups</div>
+              </div>
+              <a class="cta primary" href="mailto:juniorpresident096@gmail.com?subject=Pro%20Plan%20Inquiry">Get started</a>
+            </div>
+
+            <div class="card">
+              <h3>Agency</h3>
+              <div class="price"><span class="amount" data-monthly="60" data-yearly="600">$60</span> <span class="per">/mo</span></div>
+              <div class="features-list">
+                <div>Unlimited sites</div>
+                <div>White-label reports</div>
+                <div>Uptime monitoring</div>
+              </div>
+              <a class="cta primary" href="mailto:juniorpresident096@gmail.com?subject=Agency%20Plan%20Inquiry">Get started</a>
+            </div>
+          </div>
+
+          <div style="margin-top:12px; text-align:center; color:var(--muted); font-size:13px">All plans include free SSL, automatic Netlify deploys, and Git integration.</div>
+        </div>
+      </aside>
+    </main>
+
+    <section style="margin-top:22px">
+      <div class="panel">
+        <h3 style="margin:0 0 8px">Add this to your site</h3>
+        <p style="color:var(--muted); margin:0 0 12px">Copy this short snippet into your website (contact button or pricing table) and change the mailto to your email.</p>
+        <pre style="background:#071023; padding:12px; border-radius:10px; overflow:auto; color:#9fd3df">&lt;a href="mailto:juniorpresident096@gmail.com?subject=Website%20Hosting%20Inquiry" class="cta primary"&gt;Hire us to host your site&lt;/a&gt;</pre>
+      </div>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> GlobbalNews — Hosting & Maintenance</div>
+      <div style="color:var(--muted)">Questions? <a href="mailto:juniorpresident096@gmail.com" style="color:var(--accent); text-decoration:none">Email us</a></div>
+    </footer>
+  </div>
+
+  <script>
+    const mBtn = document.getElementById('monthlyBtn');
+    const yBtn = document.getElementById('yearlyBtn');
+    const amounts = document.querySelectorAll('.amount');
+    function setMode(mode){
+      if(mode==='monthly'){
+        mBtn.classList.add('active'); yBtn.classList.remove('active');
+        amounts.forEach(a=>{ a.textContent = '$' + a.dataset.monthly; a.nextElementSibling.textContent = '/mo' });
+      } else {
+        yBtn.classList.add('active'); mBtn.classList.remove('active');
+        amounts.forEach(a=>{ a.textContent = '$' + a.dataset.yearly; a.nextElementSibling.textContent = '/yr' });
+      }
+    }
+    mBtn.addEventListener('click', ()=>setMode('monthly'))
+    yBtn.addEventListener('click', ()=>setMode('yearly'))
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3829551401962136"
+  crossorigin="anonymus">
+</script>
+</html>
